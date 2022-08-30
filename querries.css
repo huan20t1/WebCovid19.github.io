@@ -1,0 +1,420 @@
+@media only screen  and (max-width:1320px){
+    #menu ul{
+        padding-left: 360px;
+    }
+    .sticky #menu ul{
+        padding-left: 360px;
+    }
+}
+/* Máy tính bảng lớn đến 1200px;*/
+@media only screen  and (max-width:1200px){
+    body{
+        font-size:14px;
+    }
+    #main{
+        width: 1000px;
+    }
+    #menu ul{
+        padding-top: 25px;
+        padding-left: 350px;
+    }
+    #menu ul li a{
+        padding: 0px 15px 0px 15px;
+        font-size:16px;
+    }
+    .sticky #menu ul{
+        padding-left: 375px;
+        padding-top: -15px;
+    }
+    .sticky #menu ul li a{
+        padding: 0px 15px 0px 15px;
+    }
+    .sticky .logo{
+        padding-left: -20px;
+        margin-bottom: -15px;
+        margin-top: 10px;
+    }
+    .logo{
+        width: 400px;
+        margin: 80px 0px 0px 60px
+    }
+    .covid{
+        background-color:white;
+        color: black;
+        height: 75px;
+        width: 240px;
+    }
+    .typo{
+        transform: translate(20%, 29%);
+        font-size: 45px;
+    }
+    .img5k{
+        width:400px;
+        height:240px ;
+        padding-left:-70px;
+    }
+    iframe{
+        width: 100%;
+        height: 800px;
+        padding: 20px 0px 0px 0px;
+    }
+    #tranglienquan h2{
+        padding: 0px 0px 0px 20px;
+    }
+    #hotro{
+        padding: 50px 0px 0px 90px;
+        font-size:23px;
+    }
+}
+
+/*--------------------------------------*/
+@media only screen and (max-width:1170px){
+    #menu ul{
+        padding-left: 340px;
+    }
+    .sticky #menu ul{
+        padding-left: 340px;
+    }
+}
+
+/* Máy tính bảng nhỏ đến máy tính bảng lớn từ 768x đến 1023px */
+@media only screen and (max-width:1023px){
+    html{
+        font-size: 12px;
+    }
+    #main{
+        width: 850px;
+    }
+    #header{
+        background-image: linear-gradient(45deg ,rgb(2,33,64, 0.4) 25%,rgba(255, 255, 255, 0)), url("Ảnh/banner1.jpg");
+        background-size:cover;
+        background-position:center;
+        height: 100vh;
+        background-attachment: fixed;
+    }
+    .logo{
+        width: 360px;
+        padding: 30px 0px 0px 0px;
+    }
+    #menu ul{
+        padding-left: 305px;
+        padding-top: 3px;
+    }
+    #menu ul li a{
+        font-weight: 540;
+        font-size:15px;
+        padding: 0px 10px 0px 10px;
+    }
+    .sticky #menu ul{
+        padding-left: 305px;
+    }
+    .sticky #menu ul li a{
+        padding: 0px 10px 0px 10px;
+    }
+    .sticky .logo{
+        margin: -15px 0px 5px 10px;
+    }
+    .typo{
+        transform:translate(20%, 32%);
+        font-size:42px;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+        line-height: 70px;
+    }
+    .covid{
+        background-color:white;
+        color: black;
+        height: 65px;
+        width: 210px;
+    }
+    h2{
+        font-size:23px;
+    }
+    .db{
+        width: 800px;
+    }
+    #tranglienquan img{
+        height: 60px;
+    }
+}
+
+
+
+/*---------------------900px------------------------**/
+@media only screen and (max-width:900px){
+    #main{
+        width: 750px;;
+    }
+    #menu ul{
+        padding-left: 170px;
+    }
+    .sticky #menu ul{
+        padding-left: 170px;
+    }
+    .db{
+        width: 750px;
+    }
+    .sticky .logo{
+        width: 120px;
+        margin-bottom: -45px;
+        margin-top: -13px;
+    }
+    .sticky #menu{
+        margin-top: 4px;
+    }
+    #hotro{
+        padding-left:40px;
+    }
+}
+/**/
+/**/
+/* Điện thoại nhỏ đến máy tính bảng nhỏ 767px */
+/**/
+@media only screen and (max-width:767px){
+    html{
+        font-size: 10px;
+    }
+    #main{
+        width: 570px;
+    }
+    #menu ul{
+        display: inline-block;
+        padding: 48px 0px 0px 7px;
+    }
+    #menu ul li a{
+        font-size:13px;
+        padding: 0px 7px 0px 7px;
+    }
+    .mobile-icon{
+        display: block !important;
+        margin: -40px -20px 0px 0px;
+    }
+    .logo{
+        width: 320px;
+        margin: 100px 0px -60px 45px;
+    }
+
+    /* sticky menu*/
+    .sticky .logo{
+        width: 120px;
+        margin: -20px 0px -100px 10px;
+    }
+    .sticky #menu ul{
+        margin: -20px 0px -5px -140px;
+    }
+    .sticky .mobile-icon{
+        margin: -7px -20px 0px 0px;
+    }
+    .mobile-icon{
+        color:red;
+    }
+    /**/
+    .typo{
+        transform: translate(20%, 40%);
+        font-size: 30px;
+    }
+    .covid{
+        background-color:white;
+        color: black;
+        height: 65px;
+        width: 150px;
+    }
+    .db{
+        width: 550px;;
+    }
+    h2{
+        font-size: 19px;
+    }
+    #tranglienquan img{
+        height: 40px;
+    }
+    #tranglienquan{
+        padding-left: 2px;
+    }
+
+    /* hỗ trợ người dân*/
+    #hotro{
+        padding: 50px 0px 0px 60px;
+        font-size:17px;
+    }
+    .hotline{
+        width:200px;
+        height: 50px;
+        margin: 3px 0px 10px 0px;
+        padding: 9px 0px 0px 0px;
+    }
+    .khaibao{
+        width:200px;
+        height: 50px;
+        margin: 0px 0px 10px 0px;
+    }
+    .benhvien{
+        width:200px;
+        height: 50px;
+    }
+    .hoidap{
+        width:200px;
+        height: 50px;
+    }
+    /* -------------------Footer-----------------*/
+    #footer{
+        height: 190px;
+    }
+    #footer h3{
+        text-transform:uppercase;
+        padding: 23px 0px 10px 0px;
+        font-size: 20px;
+    }
+    .lienket img{
+        height: 25px;
+        width: 25px;
+    }
+    #footer .kc{
+        margin-top: 8px;
+    }
+    .social-button{
+        margin-left: -25px;
+    }
+} 
+
+
+/*------------------------------------------------*/
+/*-------------------------------------------------------------*/
+@media only screen and (max-width: 570px){
+    #main{
+        width: 450px;
+    }
+    .logo{
+        width: 250px;
+        margin: 70px 0px 0px 30px;
+    }
+    #menu ul{
+        margin: -17px 0px 0px 0px;
+    }
+    #menu ul li a{
+        font-size: 12px;
+    }
+    .sticky .logo{
+    display: none;
+    }
+    h2{
+        font-size:17px;
+    }
+    .db{
+        width: 430px;
+    }
+    .timeudt{
+        color:#9d7140;
+        margin-top: -15px;
+        font-size: 15px;
+    }
+    #tranglienquan{
+        padding-left: -10px;
+        padding-right: 20px
+    }
+    #tranglienquan tr td {
+        padding: 10px 8px 10px 8px;
+    }
+    #hotro{
+        padding: 0px 0px 0px 0px;
+        font-size: 15px;
+    }
+    .hotline{
+        width: 170px;
+    }
+    .khaibao{
+        width:170px;
+        height: 50px;
+        margin: 0px 0px 10px 0px;
+    }
+    .benhvien{
+        width: 170px;
+        height: 50px;
+    }    
+    .hoidap{
+        width:170px;
+        height: 50px;
+    }
+}
+
+/* Điện thoại nhỏ từ 0 đến 480px; */
+@media only screen and (max-width: 480px){
+    html{
+        font-size: 6px;
+    } 
+    #main{
+        width: 370px;
+    }
+    #menu{
+        padding-top: 17px;
+    }
+    .logo{
+        width: 250px;
+        margin-top: 80px
+    }
+    .typo{
+       font-size: 25px;
+       letter-spacing: 1px;
+       word-spacing: 2px;
+       line-height: 55px;
+       margin-left: 50px
+   }
+   .covid{
+    background-color:white;
+    color: black;
+    height: 50px;
+    width: 130px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .db{
+        width: 370px;
+    }
+    #tranglienquan{
+        padding-left: -10px;
+        padding-right: 20px
+    }
+    #tranglienquan img{
+        width: 95px;
+        height: 34px;
+    }
+    #tranglienquan tr td {
+        padding: 10px 8px 10px 8px;
+    }
+    #hotro{
+        padding: 0px 0px 0px 0px;
+        font-size: 12px;
+    }
+    .hotline{
+        width: 140px;
+        height: 30px;
+        padding: 10px 0px 5px 0px;
+    }
+    .khaibao{
+        width: 140px;
+        height: 30px;
+        padding: 0px 0px 15px 0px;
+    }
+    .benhvien{
+        width: 140px;
+        height: 30px;
+        padding: 10px 0px 10px 0px;
+    }    
+    .hoidap{
+        width: 140px;
+        height: 30px;
+        padding: 0px 0px 15px 0px;
+    }
+    h3{
+        font-size: 16px !important;
+    }
+
+/*------animation liên hệ------------*/
+}
+@-webkit-keyframes "headerAnimation" {
+    0% { margin-top: -70px; }100% { margin-top: 0; }
+}
+@keyframes "headerAnimation" {
+    0% { margin-top: -70px; }100% { margin-top: 0; }
+}
